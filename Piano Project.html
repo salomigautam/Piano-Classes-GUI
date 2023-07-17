@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Classes</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://cdn.pixabay.com/photo/2016/11/18/15/01/piano-1835179_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: 1500px 800px;
+
+    }
+
+    .left {
+        display: inline-block;
+        left: 60px;
+        top: 20px;
+        right: 10px;
+        position: absolute;
+    }
+
+    .left img {
+        width: 40px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        font-size: 15px;
+        text-align: centre;
+        line-height: 30px;
+        margin-left: -20px;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 30px auto;
+        
+    }
+
+    .rigth {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+    .msg{
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        background-color: #e4bb16;
+        color: black;
+        padding: 5px;
+        margin: 10px;
+        font-size: 20px;
+    }
+    .msg1{
+        display: inline-block;
+        position: absolute;
+        right: 5px;
+        background-color: #e4bb16;
+        color: black;
+        padding: 5px;
+        margin: 10px;
+        font-size: 18px;
+        bottom: 3%;
+    }
+
+    .msg2 {
+        display: inline-block;
+        right: 30px;
+        position: absolute;
+        bottom: 80px;
+        font-size: 21px;
+        color: black;
+    }
+
+    .msg2 li {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .head {
+
+        margin: 2%;
+        font-size: 25px;
+    }
+
+    .head1 {
+        color: #e4bb16;
+        margin: 0%;
+        font-size: 35px;
+    }
+
+    .head2 {
+        color: #e4bb16;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 0%;
+        margin: 0%;
+        font-size: 70px;
+
+    }
+
+    .head3 {
+        color: hsl(48, 82%, 49%);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0%;
+        font-size: 70px;
+    }
+
+    .navbar {
+        display: inline-block;
+        
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+        
+        
+        background-color: black;
+
+
+    }
+
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+        cursor: pointer;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: white;
+        color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(247, 239, 239, 0.397);
+    }
+
+    .container {
+        margin: 70px 0px;
+        padding: 50px;
+        width: 33%;
+        padding-left: 0px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .btn1 {
+        display: block;
+
+        width: 300px;
+        margin: 11px auto;
+        background-color: white;
+
+        padding: 2px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 17px;
+        cursor: pointer;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 2px;
+        border: 1px solid black;
+        margin: 11px auto;
+        font-size: 17px;
+        border-radius: 8px;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/21/16/art-1296299_1280.png" alt="">
+            <div>Piano Classes</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="whenhover">Lessons</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">More Courses</a></li>
+            </ul>
+        </div>
+        <div class="rigth">
+            <button class="btn">Contact Us </button>
+    
+        </div>
+        <div class="container">
+            <h1 class="head">Want to be a Skilled Pianist?</h1>
+            <h1 class="head1">Join The Best Online </h1>
+            <h1 class="head2">PIANO</h1>
+            <h1 class="head3">LESSON</h1>
+            <div class="msg">
+                Beginner To Advanced
+            </div>
+            <div class="msg1">
+                POP|JAZZ|SOUL|BLUES|FUNK
+            </div>
+            <div class="msg2">
+                LEARN TO:
+                <li>Play Piano</li>
+                <li>Tap Rhythms</li>
+                <li>Music Theory</li>
+                <li>And Much More</li>
+            </div>
+
+
+            <form action="noaction.php"></form>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gendre">
+                <input type="text" name="" placeholder="Enter your Locality">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div>
+                <button class="btn1">Submit</button>
+            </div>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
